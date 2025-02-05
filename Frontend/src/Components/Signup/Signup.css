@@ -1,0 +1,69 @@
+.signup-body{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DDD8D3;
+    height: 85vh;
+    margin: 0;
+} 
+.signup{
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid black;
+    padding: 30px;
+    
+    border-radius: 10px;
+
+    
+}
+.signup h1{
+    font-size: 40px;
+   
+}
+.signup-form{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.signup-username{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.signup-username label{
+    font-size: 20px;
+}
+.signup-username input{
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+ 
+    border: none;
+    outline: none;
+    border-bottom: 1.5px solid black;
+
+}
+.signup-username input::placeholder{
+    font-size: 12px;
+    font-style: italic;
+}
+.signup-username input:focus{
+    outline: none;
+}
+
+.signup-button button{
+    font-size: 20px;
+    cursor: pointer;
+    width: 100%;
+    border-radius:5px ;
+    padding: 10px;
+    background-color: purple;
+    color:#fff;
+    font-weight:500;
+    border:none;
+}
+.signup-para-signup a{
+    color: purple;
+}

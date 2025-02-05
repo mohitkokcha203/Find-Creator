@@ -1,0 +1,95 @@
+.hero {
+    background-color: #DDD8D3;
+    color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 500px;
+    justify-content: space-between;
+}
+
+.hero-left {
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-top: 10px; 
+}
+
+.hero-h1 {
+    padding-top: 50px;
+    font-size: 25px;
+}
+
+.hero-paragraph {
+    padding-top: 30px;
+    font-size: 20px;
+    color: rgb(36, 35, 35);
+}
+
+.hero-paragraph p {
+    padding-top: 10px;
+}
+
+.hero-paragraph span {
+    color: black;
+    font-weight: bold;
+}
+
+.hero-sign {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.hero-sign button {
+    margin-top: 30px;
+    font-size: 25px;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.hero-right img {
+    height: 500px;
+    width: 600px;
+    background-size: cover; 
+    background-position: center;
+}
+
+/* Media Query for small screens */
+@media screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column; 
+    height: auto; 
+  }
+
+  .hero-left {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: center; 
+  }
+
+  .hero-h1 {
+    padding-top: 20px;
+    font-size: 20px;
+  }
+
+  .hero-paragraph {
+    padding-top: 20px;
+    font-size: 18px;
+  }
+
+  .hero-sign button {
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+
+  .hero-right img {
+    height: auto;
+    width: 100%;
+    margin-top: 20px; 
+  }
+}

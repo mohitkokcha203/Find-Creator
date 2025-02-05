@@ -1,0 +1,63 @@
+.youtuber-detail-info {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.youtuber-detail-info-1 h1 {
+  font-size: 40px;
+}
+
+.youtuber-detail-info-1 img {
+  margin-top: 10px;
+  border-radius: 50%;
+  width: 120px;
+}
+
+.youtuber-detail-info-2 {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.youtuber-detail-info div {
+  text-align: center;
+}
+
+.youtuber-detail-info-2 h2 {
+  font-size: 25px;
+}
+
+.youtuber-detail-info div p {
+  font-weight: 600;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+/* Media Query for small screens */
+@media screen and (max-width: 768px) {
+.youtuber-detail-info-1 h1 {
+  font-size: 30px; 
+}
+
+.youtuber-detail-info-1 img {
+  width: 100px; 
+}
+
+.youtuber-detail-info-2 {
+
+  flex-direction: column; 
+  gap: 30px; 
+  align-items: center;
+}
+
+.youtuber-detail-info-2 h2 {
+  font-size: 30px;
+}
+
+.youtuber-detail-info div p {
+  font-size: 22px; 
+}
+}

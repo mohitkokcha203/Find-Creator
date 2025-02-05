@@ -1,0 +1,29 @@
+.Video-container {
+    background-color: rgb(10 151 112);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    
+
+  }
+  
+  .Video-container p {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  .video-player {
+    
+    width: 80%;
+    max-width: 900px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px  rgba(0, 0, 0, 0.5);
+  }
+  

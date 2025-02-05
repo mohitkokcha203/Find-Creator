@@ -1,0 +1,57 @@
+.youtuber-header {
+    background-color: #DDD8D3;
+    color: black;
+    padding: 30px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+.youtuber-header-channels {
+    display: flex;
+    gap: 15px;
+}
+
+.youtuber-header-search {
+    display: flex;
+    gap: 15px;
+}
+
+.youtuber-content {
+    background-color: #DDD8D3;
+    padding: 10px 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Media Query for small screens */
+@media screen and (max-width: 768px) {
+  .youtuber-header {
+    flex-direction: row;
+    align-items:center;
+    padding: 20px;
+    font-size: 25px;
+    width: 100%;
+  }
+
+  .youtuber-header-channels, .youtuber-header-search {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .youtuber-content {
+    
+    padding: 10px 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+  }
+
+  .youtuber-content > * {
+  
+    width: 90%; 
+    margin-bottom: 10px; 
+  }
+}

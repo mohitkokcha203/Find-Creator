@@ -1,0 +1,69 @@
+.frequency-info {
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(155, 154, 154);
+    border-radius: 10px;
+}
+
+.frequency-info-heading {
+    font-size: 30px;
+}
+
+.frequency-info-1 {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.frequency-info-1 div {
+    font-size: 20px;
+    text-align: center;
+}
+
+.frequency-info-1 div p,
+h4 {
+    padding: 5px;
+}
+
+.frequency-info-2 {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.frequency-info-2 div {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Media Query for small screens */
+@media screen and (max-width: 768px) {
+  .frequency-info {
+    padding: 15px;
+  }
+
+  .frequency-info-heading {
+    font-size: 30px; 
+    text-align: center; 
+  }
+
+  .frequency-info-1, .frequency-info-2 {
+    flex-direction: column; 
+    align-items: center;
+    gap: 20px; 
+  }
+
+  .frequency-info-1 div, .frequency-info-2 div {
+    font-size: 22px;
+  }
+
+  .frequency-info-1 div p, .frequency-info-1 div h4, .frequency-info-2 div p {
+    font-size: 25px; 
+    padding: 5px;
+  }
+}
